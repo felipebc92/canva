@@ -1,0 +1,50 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.canvas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.canvas-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+.canvas-section h2 {
+    margin-top: 0;
+}
+.canvas-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.canvas-section ul li {
+    margin-bottom: 10px;
+}
+
+.title-with-icon {
+    position: relative; /* Establecer posición relativa para el título */
+}
+
+.title-with-icon img {
+    width: 70px;
+    height: 70px;
+    position: absolute; /* Posicionamiento absoluto para el icono */
+    top: 0;
+    right: 0;
+}
+
+.canvas-section-link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.canvas-section:hover {
+    border: 2px solid lightblue; /* Cambia el color y grosor del borde al pasar el mouse */
+}
